@@ -1,0 +1,13 @@
+{
+  "Snippet snip": {
+    "prefix": ["jsnip", "jsnippet", "sniptest"],
+    "body": [
+      "  \"${1:Name}\": {",
+      "    \"prefix\": \"j${2:stuff}\",",
+      "    \"body\": \"console.${3|log,warn,error|}('$4')\",",
+      "    \"description\": \"${5:your words here}\"",
+      "}"
+    ],
+    "description": "Snippet snip"
+  }
+}
